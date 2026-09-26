@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Alejandra Aimee Rivas Montes" />
+    <meta
+      name="description"
+      content="Personal interests, hobbies, travel, family, and life beyond technology of Alejandra Aimee Rivas Montes."
+    />
+
+    <title>Beyond | Alejandra Rivas</title>
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Alejandra Rivas</a>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="beyond.html">Beyond</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="beyond-intro">
+        <h1>Beyond the Résumé</h1>
+        <p>
+          Technology is an important part of my life, but it is not the whole
+          story. Outside of work and school, I enjoy traveling, spending time
+          outdoors, sharing time with my family, and making memories with my
+          dog, Nixie.
+        </p>
+      </section>
+      <section class="beyond-interests">
+        <h2>A Little More About Me</h2>
+
+        <div class="interest-grid">
+          <button class="interest-card" type="button" data-gallery="hiking">
+            <img
+              src="./images/personal/hiking-cover.png"
+              alt="Alejandra hiking"
+            />
+            <span>Adventures</span>
+          </button>
+
+          <button class="interest-card" type="button" data-gallery="traveling">
+            <img
+              src="./images/personal/traveling-cover.png"
+              alt="A travel memory"
+            />
+            <span>Traveling</span>
+          </button>
+
+          <button class="interest-card" type="button" data-gallery="family">
+            <img
+              src="./images/personal/family-cover.png"
+              alt="A family memory"
+            />
+            <span>Family</span>
+          </button>
+
+          <button class="interest-card" type="button" data-gallery="nixie">
+            <img src="./images/personal/nixie-cover.png" alt="Nixie" />
+            <span>Nixie</span>
+          </button>
+        </div>
+      </section>
+
+      <!--Esta seccion es para la galeria atras de los botones-->
+      <div class="gallery-modal" id="gallery-modal" hidden>
+        <div class="gallery-content">
+          <button
+            class="gallery-close"
+            type="button"
+            aria-label="Close gallery"
+          >
+            &times;
+          </button>
+
+          <button
+            class="gallery-previous"
+            type="button"
+            aria-label="Previous image"
+          >
+            &#10094;
+          </button>
+
+          <figure>
+            <img
+              class="gallery-image"
+              src="./images/personal/hiking/h1.jpg"
+              alt="Alejandra hiking"
+            />
+            <figcaption class="gallery-caption"></figcaption>
+          </figure>
+
+          <button class="gallery-next" type="button" aria-label="Next image">
+            &#10095;
+          </button>
+        </div>
+      </div>
+
+      <section id="contact">
+        <h2>Let's Connect</h2>
+        <p>
+          Interested in my experience or just want to connect? Feel free to
+          reach out.
+        </p>
+
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:rivasmontes.a@northeastern.edu" aria-label="Email">
+              <img src="./images/email.png" alt="Email" />
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.linkedin.com/in/alejandrarivasmontes/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <img src="./images/linkedin.jpg" alt="LinkedIn" />
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://github.com/rivaimee"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <img src="./images/github.png" alt="GitHub" />
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://x.com/rivaimee"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
+            >
+              <img src="./images/x.jpg" alt="X" />
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/rivaimee/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <img src="./images/instagram.png" alt="Instagram" />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Alejandra Aimee Rivas Montes</p>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
