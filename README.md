@@ -75,6 +75,7 @@ interests and life outside of technology.
    ```bash
    npm run format:check
    ```
+
 ## Screenshot
 
 ![Personal Portfolio Homepage](./images/homepage.png)
@@ -112,4 +113,3 @@ Some examples of prompts used during the project include:
 - "How can I create a photo gallery using vanilla JavaScript?"
 - "How can I add keyboard navigation so users can use the left and right arrow keys to change photos in my gallery?"
 - "How can I make a Back to Top button appear only after the user has scrolled down the page?"
-
