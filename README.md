@@ -80,6 +80,13 @@ interests and life outside of technology.
 
 ![Personal Portfolio Homepage](./images/homepage.png)
 
+## Project Links
+
+- [Live Website](https://rivaimee.github.io/Project1_WebDev/)
+- [GitHub Repository](https://github.com/rivaimee/Project1_WebDev)
+- [Video Demo](https://youtu.be/qgszSsLz1h0)
+- [Project Presentation](https://docs.google.com/presentation/d/15FXVWJglOPGNkUJnVofLXqaFE4mbBvHw/edit?usp=sharing&ouid=102296971848383812505&rtpof=true&sd=true)
+
 ## GenAI Usage
 
 Generative AI was used as a support tool during the development of this project.
@@ -99,6 +106,7 @@ I used GenAI to:
 - Help debug JavaScript and CSS issues.
 - Generate anime-style illustrations used as visual elements in the portfolio.
 - Review the project against the assignment requirements.
+
   I used GenAI as a development and learning assistant rather than relying on it
   to build the complete project. I reviewed, tested, and modified the suggested
   code as I implemented the website.
