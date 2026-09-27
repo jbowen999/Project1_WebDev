@@ -78,7 +78,7 @@ interests and life outside of technology.
 
 ## Screenshot
 
-![Personal Portfolio Homepage](./images/homepage.png)
+![Personal Portfolio Homepage](./images/homepage.gif)
 
 ## Project Links
 
